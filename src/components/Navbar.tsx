@@ -136,7 +136,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {menuOpen && (
           <div className="md:hidden bg-gray-50 border-t border-gray-200 flex flex-col items-center py-4">
-            <Link href="/" className="py-2 text-lg text-gray-800 hover:bg-[#c73232]">
+            <Link href="/" className="py-2 text-lg text-gray-800 hover:text-[#c73232]">
               Home
             </Link>
             <Link
